@@ -1,0 +1,33 @@
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border-bottom: 10px solid skyblue; */
+    object-fit: contain;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+.card__media{
+    height: 250px;
+}
+
+.card__source{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.card__title{
+    margin-top: 10px !important;
+}
+
+.card__actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.activeCard{
+    border-bottom: 10px solid blue;
+}
